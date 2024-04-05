@@ -1,5 +1,4 @@
 import CustomButton from "@/components/Elements/CustomButton";
-import Industries from "@/components/ui/Industries"
 import Process from "@/components/ui/newComp/Process";
 import OurServices from "@/components/ui/newComp/OurServices";
 import StillHaveQuestions from "@/components/ui/newComp/StillHaveQuestions";
