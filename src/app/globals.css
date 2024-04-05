@@ -74,3 +74,28 @@
     @apply bg-background text-foreground;
   }
 }
+
+.custom-buttom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 228px;
+  margin: 0 auto;
+  padding: 13px 47px 13px 47px;
+  background: linear-gradient(135deg, #1ad9df, #a824fe);
+  overflow: hidden;
+  border-radius: 30px;
+  color: white;
+}
+.custom-buttom:hover {
+  border-width: 2px;
+  color: black;
+  border: 2px double transparent;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)),
+    radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
